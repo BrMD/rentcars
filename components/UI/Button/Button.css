@@ -1,0 +1,9 @@
+.button {
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #000;
+  color: #000;
+  cursor: pointer;
+  @media screen {
+  }
+}
