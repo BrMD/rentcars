@@ -6,18 +6,20 @@ import User from "../../components/UI/User/User";
 import Button from "../../components/UI/Button/Button";
 const Header = () => {
   return (
-    <div className="header">
-      <div className="buttonDiv">
-        <img className="icon" src={locationIcon} />
-        <Button>Localização</Button>
+    <header className="header">
+      <div className="flex-1">
+        <div className="buttonDiv">
+          <img className="icon" src={locationIcon} />
+          <Button>Localização</Button>
+        </div>
       </div>
-      <div>
+      <div className="flex-1 flex justify-center">
         <Logo />
       </div>
-      <div>
+      <div className="flex-1 flex justify-end">
         <User />
       </div>
-    </div>
+    </header>
   );
 };
 
