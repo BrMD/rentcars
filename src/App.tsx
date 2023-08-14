@@ -1,11 +1,12 @@
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
+import HomeContent from "./homeContent/HomeContent";
 
 function App() {
   return (
     <div>
       <Header />
-      <main className="content text-slate-500">Content</main>
+      <HomeContent />
       <Footer />
     </div>
   );

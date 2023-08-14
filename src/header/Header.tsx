@@ -13,8 +13,11 @@ const Header = () => {
           <Button>Localização</Button>
         </div>
       </div>
-      <div className="flex-1 flex justify-center">
+      <div className="flex-1 flex justify-center flex-col items-center">
         <Logo />
+        <span className="hidden text-[12px] mt-1 md:block">
+          O melhor lugar para alugar automoveis e na xxxx
+        </span>
       </div>
       <div className="flex-1 flex justify-end">
         <User />
