@@ -1,15 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body {
+  background: rgb(195, 185, 183);
+  background: linear-gradient(
+    180deg,
+    rgba(195, 185, 183, 1) 0%,
+    rgba(169, 153, 161, 1) 15%,
+    rgba(144, 124, 140, 1) 29%,
+    rgba(106, 77, 107, 1) 51%,
+    rgba(90, 60, 92, 1) 74%,
+    rgba(81, 51, 84, 1) 87%,
+    rgba(71, 41, 76, 1) 100%
+  );
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  --color--purple: #47294c;
+  --color--black: #010101;
+  --color--fedora: #816f7d;
+  --color--silver: #c3b9b7;
+  --color--white: #faf4fc;
   color-scheme: light dark;
-  color: #000;
-  background-color: #ffffff;
+  color: var(--color--purple);
+  background-color: var(--color--white);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

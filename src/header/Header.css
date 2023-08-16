@@ -1,17 +1,17 @@
 .header {
-  background: rgb(28, 1, 29);
+  /* background: rgb(28, 1, 29);
   background: linear-gradient(
     90deg,
     rgba(28, 1, 29, 1) 0%,
     rgba(49, 3, 51, 1) 35%,
-    rgba(108, 4, 113, 1) 51%,
+    #6c0471 51%,
     rgba(49, 3, 51, 1) 67%,
-    rgba(28, 1, 29, 1) 100%
-  );
+    #1c011d 100%
+  ); */
+  background-color: inherit;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #ffffff;
   padding: 10px;
 }
 .icon {
@@ -27,20 +27,23 @@
 }
 .buttonDiv {
   margin-left: 1.5em;
+  height: 2.3em;
   display: flex;
-  background-color: #474646;
+  background-color: var(--color--white);
   align-items: center;
   width: 7em;
-  border-radius: 20px;
+  color: var(--color--purple);
+  border-radius: 10px;
   cursor: pointer;
-  border: 1px solid #ffffff;
-  transition: all 0.7s;
+  border: 2px solid var(--color--purple);
+  transition: all 0.6s;
   @media only screen and (max-width: 700px) {
     width: 6em;
     height: 2em;
   }
 }
 .buttonDiv:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: var(--color--purple);
+  border-radius: 30px;
+  color: var(--color--white);
 }

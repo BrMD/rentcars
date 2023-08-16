@@ -1,10 +1,9 @@
 .footer {
   height: 10vh;
-  border: 1px solid #000;
   display: flex;
-  background-color: #000;
+  background-color: inherit;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: var(--color--white);
   width: 100%;
 }

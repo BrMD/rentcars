@@ -1,8 +1,9 @@
 .homeShowCategoryCars {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(100px, auto));
+  grid-template-rows: repeat(2, minmax(100px, auto));
   height: auto;
-  background: #fff;
+  background: inherit;
   @media only screen and (max-width: 700px) {
     grid-template-columns: 1fr 1fr;
   }
@@ -12,9 +13,13 @@
 }
 .itemCategoryCar {
   margin: 2em;
-  border: 1px solid #000;
-  background-color: #fff;
+  border: 3px solid var(--color--purple);
+  background-color: var(--color--white);
   display: flex;
+  width: 20em;
   align-items: center;
   justify-content: center;
+}
+.itemCategoryCar:hover {
+  height: 20em;
 }
