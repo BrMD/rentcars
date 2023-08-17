@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background: rgb(195, 185, 183);
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background: linear-gradient(
     180deg,
     rgba(195, 185, 183, 1) 0%,
@@ -13,9 +17,6 @@ body {
     rgba(81, 51, 84, 1) 87%,
     rgba(71, 41, 76, 1) 100%
   );
-}
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   --color--purple: #47294c;
@@ -26,22 +27,9 @@ body {
   color-scheme: light dark;
   color: var(--color--purple);
   background-color: var(--color--white);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
-#root > div {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
-
-html,
-body,
-#root,
-#root > div {
-  height: 100%;
-  margin: 0;
 }
