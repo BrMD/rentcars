@@ -34,29 +34,47 @@ const HomeContent = () => {
           <h1 className="title">Mais Alugados</h1>
         </div>
         <div className="itemsRented">
-          <div className="rentedItem">
-            <span>Sedan</span>
-            <img src="eletricoSF.png" className="imgCar" />
+          <div className="flex flex-col items-center">
+            <div className="rentedItem">
+              <span>Sedan</span>
+              <img src="eletricoSF.png" className="imgCar" />
+            </div>
+            <div className="blackBar">R$ 50/dia</div>
           </div>
-          <div className="rentedItem">
-            <span>Sedan</span>
-            <img src="eletricoSF.png" className="imgCar" />
+          <div className="flex flex-col items-center">
+            <div className="rentedItem">
+              <span>Sedan</span>
+              <img src="eletricoSF.png" className="imgCar" />
+            </div>
+            <div className="blackBar">R$ 50/dia</div>
           </div>
-          <div className="rentedItem">
-            <span>Sedan</span>
-            <img src="eletricoSF.png" className="imgCar" />
+          <div className="flex flex-col items-center">
+            <div className="rentedItem">
+              <span>Sedan</span>
+              <img src="eletricoSF.png" className="imgCar" />
+            </div>
+            <div className="blackBar">R$ 50/dia</div>
           </div>
-          <div className="rentedItem">
-            <span>Sedan</span>
-            <img src="eletricoSF.png" className="imgCar" />
+          <div className="flex flex-col items-center">
+            <div className="rentedItem">
+              <span>Sedan</span>
+              <img src="eletricoSF.png" className="imgCar" />
+            </div>
+            <div className="blackBar">R$ 50/dia</div>
           </div>
-          <div className="rentedItem">
-            <span>Sedan</span>
-            <img src="eletricoSF.png" className="imgCar" />
+          <div className="flex flex-col items-center">
+            <div className="rentedItem">
+              <span>Sedan</span>
+              <img src="eletricoSF.png" className="imgCar" />
+            </div>
+            <div className="blackBar">R$ 50/dia</div>
           </div>
-          <div className="rentedItem">
-            <span>Sedan</span>
-            <img src="eletricoSF.png" className="imgCar" />
+          <div className="flex flex-col items-center">
+            <div className="rentedItem">
+              <span>Sedan</span>
+              <img src="eletricoSF.png" className="imgCar" />
+            </div>
+            <div className="blackBar">R$ 50/dia</div>
           </div>
         </div>
       </div>

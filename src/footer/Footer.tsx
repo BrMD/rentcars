@@ -1,4 +1,3 @@
-import React from "react";
 import "./Footer.css";
 import Logo from "../../components/UI/Logo/Logo";
 
