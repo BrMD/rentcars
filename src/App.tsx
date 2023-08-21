@@ -4,11 +4,11 @@ import HomeContent from "./homeContent/HomeContent";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <HomeContent />
       <Footer />
-    </div>
+    </>
   );
 }
 

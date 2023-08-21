@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
+  height: 100%;
 }
-
 .carImage {
   width: 20em;
 }
@@ -16,9 +17,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--color--silver);
-  width: 80%;
-  border: 2px solid var(--color--silver);
+  background-color: var(--color--white);
+  width: 60%;
+  border: 2px solid var(--color--purple);
   border-radius: 15px;
 }
 .nameCar {
@@ -30,4 +31,7 @@
   padding: 1em;
   display: grid;
   grid-template-columns: repeat(2, minmax(100px, 1fr));
+}
+.selectModal {
+  width: 20em;
 }

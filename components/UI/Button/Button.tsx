@@ -1,7 +1,21 @@
 import "./Button.css";
 
-const Button = ({ children }: { children: React.ReactNode }) => {
-  return <button className="button">{children}</button>;
+interface props {
+  children: React.ReactNode;
+  twClass?: string;
+  onButtonClick: () => void;
+}
+
+const Button: React.FC<props> = ({
+  twClass = "button",
+  children,
+  onButtonClick,
+}) => {
+  return (
+    <button onClick={onButtonClick} className={twClass}>
+      {children}
+    </button>
+  );
 };
 
 export default Button;
