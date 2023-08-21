@@ -1,5 +1,6 @@
 .footer {
-  height: 10%;
+  grid-row-start: 3; /* Ocupa a terceira linha */
+  grid-row-end: 4; /* Termina na quarta linha (final) */
   display: flex;
   margin: 2em;
   background-color: inherit;

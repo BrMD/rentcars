@@ -7,7 +7,9 @@ body {
   margin: 0;
   padding: 0;
 }
-html {
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background: linear-gradient(
     180deg,
     rgba(195, 185, 183, 1) 0%,
@@ -18,13 +20,6 @@ html {
     rgba(81, 51, 84, 1) 87%,
     rgba(71, 41, 76, 1) 100%
   );
-}
-:root {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-
   font-weight: 400;
   --color--purple: #47294c;
   --color--black: #010101;

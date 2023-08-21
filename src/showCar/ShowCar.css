@@ -1,3 +1,8 @@
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Cria três linhas: header, conteúdo flexível e footer */
+  min-height: 100vh; /* Garante que o container tenha pelo menos a altura da janela de visualização */
+}
 .carShow {
   display: flex;
   flex-direction: column;

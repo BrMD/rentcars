@@ -16,7 +16,7 @@ const ShowCar = () => {
   const onClose = () => setOpen(false);
 
   return (
-    <div>
+    <div className="container">
       <Header />
       <div className="carShow flex-1">
         <div className="carDetails">
