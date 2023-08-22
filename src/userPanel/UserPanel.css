@@ -1,0 +1,30 @@
+.userPanelDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.userPanelInformation {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: #ffffff4b;
+  border-radius: 16px;
+  padding: 30px;
+  border: 2px solid var(--color--light-blue);
+}
+.userInputDiv {
+  display: flex;
+  flex-direction: column;
+}
+.userInputDiv input {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  height: 1.7em;
+  width: 30%;
+  padding: 2px;
+}
+.userInputDiv input:focus {
+  outline: none;
+  border: 1px solid var(--color--light-blue);
+}

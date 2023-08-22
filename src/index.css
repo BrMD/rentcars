@@ -26,6 +26,7 @@ body {
   --color--fedora: #816f7d;
   --color--silver: #c3b9b7;
   --color--white: #faf4fc;
+  --color--light-blue: #00f5fd;
   color-scheme: light dark;
   color: var(--color--purple);
   background-color: var(--color--white);
@@ -34,4 +35,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Cria três linhas: header, conteúdo flexível e footer */
+  min-height: 100vh;
+  min-width: 100vw;
 }

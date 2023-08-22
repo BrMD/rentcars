@@ -6,6 +6,7 @@ import App from "./App.tsx";
 import "./index.css";
 import ErrorPage from "./errorPage/ErrorPage.tsx";
 import ShowCar from "./showCar/ShowCar.tsx";
+import UserPanel from "./userPanel/UserPanel.tsx";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/showCar",
     element: <ShowCar />,
+  },
+  {
+    path: "/userPanel",
+    element: <UserPanel />,
   },
   {
     path: "*",
