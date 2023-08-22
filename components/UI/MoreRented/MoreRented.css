@@ -1,0 +1,35 @@
+.rentedItem {
+  align-items: center;
+  margin: 1em 3em 0 3em;
+  height: 5em;
+  border: 3px solid var(--color--purple);
+  border-bottom: none;
+  background-color: var(--color--white);
+  display: flex;
+  width: 15em;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 1s;
+  @media only screen and (max-width: 600px) {
+    height: 2em;
+  }
+}
+.rentedItem:hover {
+  height: 20em;
+}
+.blackBar {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 2px solid var(--color--purple);
+  border-top: none;
+  background-color: #000;
+  color: #fff;
+  width: 15em;
+  margin: 0 0 2em 0;
+  @media only screen and (max-width: 600px) {
+    height: 1.5em;
+    font-size: 12px;
+    width: 20em;
+  }
+}

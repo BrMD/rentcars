@@ -1,0 +1,23 @@
+.itemCategoryCar {
+  align-items: center;
+  margin: 1em 3em 1em 3em;
+  height: 5em;
+  border: 3px solid var(--color--purple);
+  background-color: var(--color--white);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 15em;
+  justify-content: center;
+  @media only screen and (max-width: 600px) {
+    height: 2em;
+  }
+}
+.itemCategoryCar span {
+  margin-left: 3em;
+}
+
+.imgCar {
+  width: 2em;
+  height: 1.5em;
+  margin-left: 2em;
+}

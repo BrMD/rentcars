@@ -4,7 +4,7 @@ import HomeContent from "./homeContent/HomeContent";
 
 function App() {
   return (
-    <div className="container">
+    <div className="content">
       <Header />
       <HomeContent />
       <Footer />

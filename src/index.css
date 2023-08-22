@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background: linear-gradient(
@@ -36,9 +30,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-.container {
+.content {
   display: grid;
   grid-template-rows: auto 1fr auto; /* Cria três linhas: header, conteúdo flexível e footer */
   min-height: 100vh;
-  min-width: 100vw;
+  width: 100%;
 }

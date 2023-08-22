@@ -3,7 +3,7 @@ import Header from "../header/Header";
 import "./UserPanel.css";
 const UserPanel = () => {
   return (
-    <div className="container">
+    <div className="content">
       <Header />
       <div className="userPanelDiv">
         <div className="userPanelInformation">

@@ -7,6 +7,7 @@ import "react-responsive-modal/styles.css";
 import Button from "../../components/UI/Button/Button";
 import Footer from "../footer/Footer";
 import Header from "../header/Header";
+import Span from "../../components/UI/Span/Span";
 
 import eletrico from "/eletricoSF.png";
 
@@ -16,7 +17,7 @@ const ShowCar = () => {
   const onClose = () => setOpen(false);
 
   return (
-    <div className="container">
+    <div className="content">
       <Header />
       <div className="carShow flex-1">
         <div className="carDetails">
@@ -25,41 +26,17 @@ const ShowCar = () => {
             <img className="carImage" src={eletrico} />
           </div>
           <div className="textDetails">
-            <div className="flex flex-col text-right">
-              <div className="m-2">
-                <span>Marca:</span>
-                <span>BMW</span>
-              </div>
-              <div className="m-2">
-                <span>KM:</span>
-                <span>50000</span>
-              </div>
-              <div className="m-2">
-                <span>Ano:</span>
-                <span>2023</span>
-              </div>
-              <div className="m-2">
-                <span>Propulsao:</span>
-                <span>Hibrido</span>
-              </div>
+            <div className="flex flex-col sm:text-right">
+              <Span CategoryName="Marca" ResultName="BMW" />
+              <Span CategoryName="KM" ResultName="50000" />
+              <Span CategoryName="Ano" ResultName="2023" />
+              <Span CategoryName="Propulsao" ResultName="Hibrido" />
             </div>
-            <div className="flex flex-col">
-              <div className="m-2">
-                <span>Configuracao:</span>
-                <span>SUV</span>
-              </div>
-              <div className="m-2">
-                <span>Porte:</span>
-                <span>Medio</span>
-              </div>
-              <div className="m-2">
-                <span>Lugares:</span>
-                <span>5</span>
-              </div>
-              <div className="m-2">
-                <span>Portas:</span>
-                <span>4</span>
-              </div>
+            <div className="flex flex-col ">
+              <Span CategoryName="Configuracao" ResultName="SUV" />
+              <Span CategoryName="Porte" ResultName="Medio" />
+              <Span CategoryName="Lugares" ResultName="5" />
+              <Span CategoryName="Portas" ResultName="4" />
             </div>
           </div>
           <div>
