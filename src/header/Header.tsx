@@ -10,7 +10,7 @@ const Header = () => {
       <div className="flex-1">
         <div className="buttonDiv">
           <img className="icon" src={locationIcon} />
-          <Button>Localização</Button>
+          <Button onButtonClick={() => {}}>Localização</Button>
         </div>
       </div>
       <div className="flex-1 flex justify-center flex-col items-center">
